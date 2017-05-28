@@ -4,9 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <title>Indistro - Landing Page</title>
-    <!-- Vendor -->
-    <link href="vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <!-- Vendor styles -->
     <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="vendor/metisMenu/dist/metisMenu.css" />
+    <link rel="stylesheet" href="vendor/animate.css/animate.css" />
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css" />
 
     <!--- Style -->
     <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
@@ -15,6 +17,7 @@
 </head>
 
 <body class="landing-container">
+
     <nav class="nav_container">
         <div class="logo-indistro" href="#" data-qa="logo"></div>
         <ul>
@@ -26,38 +29,33 @@
         </ul>
     </nav>
 
-    <div class="header-container">
-        <div class="header-picture">
-            <object>
-                <embed id="for-desktop" src="css/images/indistro.svg" />
-            </object>
-        </div>
-        <div class="header-content">
-            <div class="wrapper">
-                <h1 class="headline m-b-md">
-                    Lorep ipsum
-                    <br> now.
-                </h1>
-                <div class="cta_wrapper">
-                    <p class="subhead">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        <br> eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        <br> laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <div class="cta">
-                        <a class="button-register">
-                            Daftar Sekarang
-                        </a>
-                        <br>
-                        <br>
-                        <span class="cta-footer">
-                            Apakah anda sudah menggunakan inDistro?
-                            <br>
-                            <a href="#" class="">Masuk</a>
-                            atau
-                            <a href="#" class="cta-footer-left">Daftar</a>
-                        </span>
+    <div class="login-container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center m-b-md">
+                    <h3>PLEASE LOGIN TO APP</h3>
+                    <small>This is the best app ever!</small>
+                </div>
+                <div class="hpanel">
+                    <div class="panel-body">
+                        <form action="#" id="loginForm">
+                            <div class="form-group">
+                                <label class="control-label" for="username">Username</label>
+                                <input type="text" placeholder="example@gmail.com" title="Please enter you username" required="" value="" name="username" id="username" class="form-control">
+                                <span class="help-block small">Your unique username to app</span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="password">Password</label>
+                                <input type="password" title="Please enter your password" placeholder="******" required="" value="" name="password" id="password" class="form-control">
+                                <span class="help-block small">Yur strong password</span>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" class="i-checks" checked> Remember login
+                                <p class="help-block small">(if this is a private computer)</p>
+                            </div>
+                            <button class="btn btn-indistro btn-block">Login</button>
+                            <a class="btn btn-default btn-block" href="#">Register</a>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -119,6 +117,17 @@
             </section>
         </div>
     </div>
+
+    <!-- Vendor scripts -->
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="vendor/slimScroll/jquery.slimscroll.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="vendor/iCheck/icheck.min.js"></script>
+    <script src="vendor/sparkline/index.js"></script>
+
+    <script src="scripts/homer.js"></script>
 
 </body>
 <html>
