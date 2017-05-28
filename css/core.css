@@ -3723,20 +3723,17 @@ ul.h-list li:hover a {
   padding-bottom: 20px;
 }
 .landing-container .nav_container .logo-indistro {
-  background: url(images/hat.png) center no-repeat;
+  background: url(images/stumbleupon.png) center no-repeat;
   background-size: 40px 40px;
   min-width: 50px;
   min-height: 60px;
   float: left;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px;
+  margin: 5px 0 0 10px;
 }
 .landing-container .nav_container ul {
   list-style-type: none;
   float: right;
+  margin-top: 10px;
 }
 .landing-container .nav_container ul li {
   display: inline-block;
@@ -3780,13 +3777,13 @@ ul.h-list li:hover a {
 .header-container .header-content {
   display: flex;
   align-items: flex-start;
-  margin-top: 6rem;
+  margin-top: 10rem;
   width: 100%;
   white-space: nowrap;
   max-width: 1014px;
   padding-left: 1.59rem;
   padding-right: 1.59rem;
-  margin-left: auto;
+  margin-left: 2rem;
   margin-right: auto;
 }
 .header-container .header-content .wrapper .headline {
@@ -3795,7 +3792,6 @@ ul.h-list li:hover a {
   line-height: 70px;
   position: relative;
   margin-top: 0;
-  margin-bottom: 0;
   white-space: nowrap;
   z-index: 1;
 }
@@ -3810,13 +3806,13 @@ ul.h-list li:hover a {
   line-height: 1.4;
   margin-bottom: 20px;
 }
-.header-container .header-content .wrapper .cta_wrapper .cta .cta-button {
+.header-container .header-content .wrapper .cta_wrapper .cta .button-register {
   border: 0;
   margin: 0;
   border-radius: 4px;
   padding: 14px 32px;
   cursor: pointer;
-  height: 20px;
+  height: 50px;
   display: inline-block;
   font-size: 17px;
   font-family: Slack-Lato, sans-serif;
@@ -3829,8 +3825,76 @@ ul.h-list li:hover a {
 }
 .header-container .header-content .wrapper .cta_wrapper .cta .cta-footer a {
   color: inherit;
-  margin-right: 10px;
+  margin-right: 5px;
+  border-bottom: 2px solid #42c299;
 }
 .header-container .header-content .wrapper .cta_wrapper .cta .cta-footer .cta-footer-left {
-  margin-left: 10px;
+  margin-left: 5px;
+}
+.footer-container {
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid #E8E8E8;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background: #fff;
+  padding: 40px 0 0;
+  color: #9e9ea6;
+}
+.footer-container .footcontent {
+  padding: 0 1.5rem!important;
+  margin: 0 40px 0 40px;
+}
+.footer-container .footcontent .foot-col {
+  margin: 0 -20px 20px -6px;
+  padding-right: 2%;
+}
+.footer-container .footcontent .foot-col ul {
+  list-style: none;
+}
+.footer-container .footcontent .foot-col ul li {
+  margin-bottom: 10px;
+}
+.footer-container .footcontent .foot-col ul li a {
+  color: inherit;
+}
+.footer-container .footcontent .foot-col ul li a:hover {
+  color: #455463;
+}
+.footer-container .footcontent .foot-col ul .title-foot {
+  font-weight: 600;
+  color: #ff5000;
+}
+.footer-container .footnote {
+  background-color: rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  min-height: 50px;
+  height: 50px;
+}
+.footer-container .footnote section {
+  margin: 0 120px;
+  display: block;
+}
+.footer-container .footnote section .foot-icon {
+  display: inline-block;
+  background: url(images/stumbleupon.png) left no-repeat;
+  background-size: 28px 28px;
+  min-width: 28px;
+  min-height: 28px;
+  float: left;
+  margin-top: 12px;
+}
+.footer-container .footnote section ul {
+  list-style: none;
+  display: inline-block;
+}
+.footer-container .footnote section ul li {
+  font-size: 20px;
+  float: right;
+  margin: 10px 10px 20px 10px;
+}
+.footer-container .footnote section ul li i {
+  color: #9e9ea6;
 }
