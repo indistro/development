@@ -458,6 +458,13 @@ body.blank {
 .btn-indistro:hover {
   color: #e8e8e8;
 }
+.panel-login {
+  background: #fff;
+  border: 1px solid #42c499;
+  border-radius: 2px;
+  padding: 40px;
+  position: relative;
+}
 @media (max-width: 420px) {
   .login-container,
   .lock-container {
